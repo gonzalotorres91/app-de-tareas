@@ -3,12 +3,12 @@ services:
   frontend:
     image: gonzalo91/tareas-frontend:latest
     ports:
-      - "4042:4042"
+      - "4042:80"
 
   backend:
     image: gonzalo91/tareas-backend:latest
     ports:
-      - "4043:4042"
+      - "4043:4043"
     environment:
       - MONGO_URI=mongodb://mongo:27017/tareas
 

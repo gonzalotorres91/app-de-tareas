@@ -38,6 +38,6 @@ app.put('/api/tareas/:id', async (req, res) => {
 mongoose.connect('mongodb://mongo:27017/tareas')
   .then(() => {
     console.log('Conectado a MongoDB');
-    app.listen(4042, () => console.log('API escuchando en puerto 4042'));
+    app.listen(4043, () => console.log('API escuchando en puerto 4043'));
   })
   .catch(err => console.error('Error de conexión MongoDB:', err));

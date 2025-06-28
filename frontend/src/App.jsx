@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:4042/api/tareas'
+const API = 'http://54.208.78.39:4043/api/tareas'
+
 
 function App() {
   const [tareas, setTareas] = useState([])
