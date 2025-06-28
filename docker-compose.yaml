@@ -1,18 +1,16 @@
 version: '3'
 services:
   frontend:
-    build: ./frontend
+    image: gonzalo91/tareas-frontend:latest
     ports:
       - "4042:4042"
-    depends_on:
-      - backend
 
   backend:
-    build: ./backend
+    image: gonzalo91/tareas-backend:latest
     ports:
-      - "4042:4042"
-    depends_on:
-      - mongo
+      - "4043:4042"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/tareas
 
   mongo:
     image: mongo:4.4
