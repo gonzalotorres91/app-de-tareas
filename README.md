@@ -79,8 +79,9 @@ Estoy abierto a feedback, colaboraciones y oportunidades laborales para seguir c
 
 ¡No dudes en contactarme!
 
-🔗 GitHub: https://github.com/gonzalotorres91
-🔗 www.linkedin.com/in/gonzalotorres-devops
+🔗 [GitHub](https://github.com/gonzalotorres91)  
+🔗 [LinkedIn](https://www.linkedin.com/in/gonzalotorres-devops)
+
 
 
 
